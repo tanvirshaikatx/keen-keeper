@@ -3,7 +3,7 @@
   "installCommand": "npm install",
   "outputDirectory": "dist",
   "routes": [
-    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
