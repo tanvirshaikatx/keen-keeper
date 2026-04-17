@@ -15,17 +15,36 @@ const Stats = () => {
     { name: "Video", value: count.Video }
   ];
 
-  return (
-    <div className="p-6">
-      <h1 className="text-xl font-bold mb-4">Friendship Analytics</h1>
+  const colors = [
+    { type: "Call", color: "#22c55e" },
+    { type: "Text", color: "#3b82f6" },
+    { type: "Video", color: "#a855f7" }
+  ];
 
-      <PieChart width={300} height={300}>
+  return (
+    <div className="p-6 ">
+      <h1 className="text-xl font-bold mb-4 text-center">Friendship Analytics</h1>
+
+      <PieChart width={300} height={300} className="mx-auto">
         <Pie data={data} dataKey="value">
           <Cell fill="#22c55e" />
           <Cell fill="#3b82f6" />
           <Cell fill="#a855f7" />
         </Pie>
       </PieChart>
+
+      {/* Legend */}
+      <div className="mt-8 space-y-3 mx-auto w-max flex gap-6  ">
+        {colors.map((item) => (
+          <div key={item.type} className="flex items-center gap-3">
+            <div 
+              className="w-4 h-4 rounded " 
+              style={{ backgroundColor: item.color }}
+            ></div>
+            <span className="text-gray-700">{item.type}</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
