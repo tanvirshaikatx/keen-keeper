@@ -1,16 +1,42 @@
-# React + Vite
+KeenKeeper
+📌 Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeenKeeper is a web application designed to help users maintain and strengthen meaningful relationships. It allows users to track interactions with friends, monitor connection frequency, and receive insights into their social habits through a clean and intuitive interface.
 
-Currently, two official plugins are available:
+🚀 Technologies Used
+React.js
+React Router DOM
+Tailwind CSS + DaisyUI
+Recharts
+React Hot Toast
+Context API
+✨ Key Features
+1. Friend Management System
+View all friends in a responsive grid layout
+Each friend card shows contact status, tags, and last interaction
+Click any card to view detailed information
+2. Interaction Tracking & Timeline
+Log interactions (Call, Text, Video) with a single click
+Automatically records date and activity
+View all activities in a timeline
+3. Analytics Dashboard
+Visualize interaction data using a Pie Chart
+Track communication patterns (Call, Text, Video)
+Helps users understand and improve relationship habits
+📱 Responsive Design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application is fully responsive and works seamlessly on mobile, tablet, and desktop devices.
 
-## React Compiler
+⚙️ Additional Features
+Loading spinner for better user experience
+Toast notifications for user actions
+404 page for invalid routes
+Smooth navigation without reload issues
+📂 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+(Add your deployed link here)
 
-## Expanding the ESLint configuration
+👨‍💻 Author
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Md. Tanvir Ahmed Shaikat
+GitHub: https://github.com/tanvirshaikatx
